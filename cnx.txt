@@ -1,0 +1,7 @@
+sudo docker start bc9e21821b03
+cd /home/ilham
+./openerp_ip.sh  password
+su openerp
+cd /home/openerp/70/
+./openerp-server
+
